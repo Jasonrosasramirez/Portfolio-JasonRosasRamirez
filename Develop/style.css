@@ -1,6 +1,6 @@
 :root { 
     --softNavColor: rgba(138, 132, 132, 0.815);
-    --blueMainColor: rgb(78, 132, 219);
+    --blueMainColor: rgb(41, 148, 219);
 }
 
 /*      -- Header and navbar Section */
@@ -67,6 +67,7 @@
 }
 
 .mainBodyFooter {
+    margin-top: 20px;
     border: 2px orange dashed;
 }
 
@@ -79,4 +80,3 @@
     border: 2px red dashed;
 
 }
-
