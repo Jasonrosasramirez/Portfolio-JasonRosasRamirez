@@ -1,6 +1,6 @@
 :root { 
     --softNavColor: rgba(138, 132, 132, 0.815);
-    --blueMainColor: rgb(131, 165, 218);
+    --blueMainColor: rgb(78, 132, 219);
 }
 
 /*      -- Header and navbar Section */
@@ -12,6 +12,7 @@
     padding-right: 20px;
     border-right: 1px var(--softNavColor) solid;
 }
+
 
 /* BannerQuote Class */
 .bannerQuote {
@@ -39,19 +40,26 @@
 .aboutMeSection {
     height: auto;
     background-color: var(--blueMainColor);
+    display: flex;
 }
 
-.aboutMeHeading {
-    border: 2px orange dashed; 
+.aboutMeContent {
+    border: 2px orange dashed;
+    clear:both;
 
 }
 
-#heyJason {
+#heyJason { /* Picture of me */
     height: 200px;
+}
 
+#aboutMeGreeting { /* Hello There! I am Jason Rosas Ramirez */
+    text-align: center;
 }
 
 
+
+/* Delete me when finished :) */
 /* for debuging use. Delete below when finished :) */ 
 
 .mainBodyContainer {
@@ -71,3 +79,4 @@
     border: 2px red dashed;
 
 }
+
