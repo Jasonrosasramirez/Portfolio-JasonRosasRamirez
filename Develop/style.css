@@ -57,7 +57,12 @@
     text-align: center;
 }
 
+/* Recent Projects Sections */
 
+.recentProjectsContent {
+    background-color: pink;
+
+}
 
 /* Delete me when finished :) */
 /* for debuging use. Delete below when finished :) */ 
@@ -78,5 +83,10 @@
 .aboutMeSection {
     margin: 10px 0px 10px 0px;
     border: 2px red dashed;
+
+}
+
+.recentProjectsSection {
+    height: auto;
 
 }
