@@ -60,9 +60,37 @@
 /* Recent Projects Sections */
 
 .recentProjectsContent {
-    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
 
 }
+
+.card-img-top {
+    height: 180px;
+    border: 2px var(--softNavColor) solid;
+}
+
+.card-body {
+    border: 2px var(--softNavColor) solid;
+}
+
+/* Quote from Ben */
+
+.quoteFromBen {
+    height: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: var(--blueMainColor);
+
+    text-align: center;
+}
+
+#quoteText {
+    color: white;
+    margin: 0px 30px 0px 30px;
+    font-size: 40px;
+}
+
 
 /* Delete me when finished :) */
 /* for debuging use. Delete below when finished :) */ 
