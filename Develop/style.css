@@ -107,10 +107,12 @@
 .contactMeSection {
     background-color: var(--blueMainColor);
 
+
 }
 
 .contactIcons {
     height: auto;
+    width: 400px;
     background-color: black;
     display: flex;
     justify-content: center;
