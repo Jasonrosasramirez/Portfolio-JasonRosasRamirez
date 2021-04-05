@@ -1,0 +1,13 @@
+:root { 
+    --softNavColor: rgb(116, 110, 110);
+}
+
+
+.navbar { 
+    border-bottom: 2px var(--softNavColor) solid;
+}
+
+#jasonNameTag {
+    padding-right: 20px;
+    border-right: 1px var(--softNavColor) solid;
+}
