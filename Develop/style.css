@@ -1,8 +1,9 @@
 :root { 
     --softNavColor: rgba(138, 132, 132, 0.815);
+    --blueMainColor: rgb(22, 50, 206);
 }
 
-
+/*      -- Header and navbar Section */
 .navbar { 
     border-bottom: 2px var(--softNavColor) solid;
 }
@@ -10,4 +11,41 @@
 #jasonNameTag {
     padding-right: 20px;
     border-right: 1px var(--softNavColor) solid;
+}
+
+/* BannerQuote Class */
+.bannerQuote {
+    padding: 30px;
+    background-color: white;
+
+}
+
+#bannerQuoteMain, 
+#bannerQuoteSub {
+    text-align: center;
+}
+
+.fa-desktop {
+    color: var(--blueMainColor);
+    
+}
+
+
+
+
+
+
+
+/* for debuging use. Delete below when finished :) */ 
+
+.mainBodyContainer {
+    border: 2px orange dashed;
+}
+
+.mainBodyFooter {
+    border: 2px orange dashed;
+}
+
+.bannerQuote {
+    border: 2px blue dashed;
 }
