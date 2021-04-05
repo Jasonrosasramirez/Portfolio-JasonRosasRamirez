@@ -32,7 +32,9 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 0%;
+    text-align: center;
+
+    font-size: 80px;
 }
 
 /* About Me Section Class */
@@ -72,6 +74,11 @@
 
 .card-body {
     border: 2px var(--softNavColor) solid;
+}
+
+.recentProjectsSection {
+    height: auto;
+
 }
 
 /* Quote from Ben */
@@ -128,7 +135,10 @@
 
 
 
+.centerMe {
+    text-align: center;
 
+}
 
 
 
@@ -148,6 +158,8 @@
 /* Delete me when finished :) */
 /* for debuging use. Delete below when finished :) */ 
 
+/*
+
 .mainBodyContainer {
     border: 2px orange dashed;
 }
@@ -162,7 +174,7 @@
 
 }
 
-.recentProjectsSection {
-    height: auto;
+*/
 
-}
+
+
