@@ -92,15 +92,61 @@
 }
 
 
+/* Education Section */
+
+.educationSection {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+/*Contact Me Section*/
+
+.contactMeSection {
+    background-color: var(--blueMainColor);
+
+}
+
+.contactIcons {
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+    font-size: 36px;
+}
+
+/* footer */
+
+.mainBodyFooter {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Delete me when finished :) */
 /* for debuging use. Delete below when finished :) */ 
 
 .mainBodyContainer {
-    border: 2px orange dashed;
-}
-
-.mainBodyFooter {
-    margin-top: 20px;
     border: 2px orange dashed;
 }
 
