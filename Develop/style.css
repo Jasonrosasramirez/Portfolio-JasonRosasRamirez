@@ -15,7 +15,7 @@
 
 /* BannerQuote Class */
 .bannerQuote {
-    padding: 30px;
+    padding: 100px;
     background-color: white;
 
 }
@@ -27,6 +27,10 @@
 
 .fa-desktop {
     color: var(--blueMainColor);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 0%;
     
 }
 
