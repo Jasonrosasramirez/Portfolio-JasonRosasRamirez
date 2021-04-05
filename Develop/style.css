@@ -1,6 +1,6 @@
 :root { 
     --softNavColor: rgba(138, 132, 132, 0.815);
-    --blueMainColor: rgb(22, 50, 206);
+    --blueMainColor: rgb(71, 92, 211);
 }
 
 /*      -- Header and navbar Section */
@@ -26,17 +26,20 @@
 }
 
 .fa-desktop {
+    padding: 20px; 
     color: var(--blueMainColor);
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 0%;
-    
 }
 
+/* About Me Section Class */
 
+.aboutMeSection {
+    background-color: var(--blueMainColor);
 
-
+}
 
 
 
