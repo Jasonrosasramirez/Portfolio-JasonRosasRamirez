@@ -1,6 +1,6 @@
 :root { 
     --softNavColor: rgba(138, 132, 132, 0.815);
-    --blueMainColor: rgb(71, 92, 211);
+    --blueMainColor: rgb(131, 165, 218);
 }
 
 /*      -- Header and navbar Section */
@@ -37,10 +37,19 @@
 /* About Me Section Class */
 
 .aboutMeSection {
+    height: auto;
     background-color: var(--blueMainColor);
+}
+
+.aboutMeHeading {
+    border: 2px orange dashed; 
 
 }
 
+#heyJason {
+    height: 200px;
+
+}
 
 
 /* for debuging use. Delete below when finished :) */ 
@@ -55,4 +64,10 @@
 
 .bannerQuote {
     border: 2px blue dashed;
+}
+
+.aboutMeSection {
+    margin: 10px 0px 10px 0px;
+    border: 2px red dashed;
+
 }
