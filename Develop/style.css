@@ -1,6 +1,7 @@
 :root { 
     --softNavColor: rgba(138, 132, 132, 0.815);
     --blueMainColor: rgb(41, 148, 219);
+    --blackContactBackground: rgb(26, 19, 19); 
 }
 
 /*      -- Header and navbar Section */
@@ -122,13 +123,17 @@
     border: 4px var(--blueMainColor) solid;
 }
 
+#contactMeID {
+    text-align: center;
+}
+
 .contactIcons {
     height: auto;
-    width: 400px;
-    background-color: black;
+    width: auto;
+    background-color: var(--blackContactBackground);
     display: flex;
-    justify-content: center;
-
+    justify-content: space-evenly;
+    text-align: center;
     font-size: 36px;
 }
 
