@@ -14,12 +14,16 @@
     border-right: 1px var(--softNavColor) solid;
 }
 
+#resumeButton {
+    background-color: var(--blueMainColor);
+    color: white;
+    border-radius: 8px;
+}
 
 /* BannerQuote Class */
 .bannerQuote {
     padding: 100px;
     background-color: white;
-
 }
 
 #bannerQuoteMain, 
