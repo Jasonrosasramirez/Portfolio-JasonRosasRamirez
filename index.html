@@ -9,9 +9,14 @@
     <!-- Imported Style sheets -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
     <!-- Local Style sheets -->
     <link rel="stylesheet" href = "./Develop/style.css">
+
 
     <title>Jason Portfolio</title>
 </head>
@@ -38,7 +43,7 @@
             <li class="nav-item"> <a class="nav-link" href="#contactMeID">Contact Me</a> </li>
           
             <a href = "./Assets/Web Development Jason Rosas Ramirez.docx" download> <!--download button! -->
-              <button type = "button" id = "resumeButton"> Download Resume </button> 
+              <button type="button" class="btn btn-primary" id = "resumeButton">Download Resume</button> 
             </a>
 
           </ul>
@@ -65,14 +70,14 @@
           <div class="row">
             <div class="centerMe">
               <h1> Hello! I am Jason Rosas Ramirez. </h1>
-              <img id = "heyJason" src="./Assets/pictureJasonCropped.png">
+              <img id = "heyJason" class="border border-warning border-4 rounded" src="./Assets/pictureJasonCropped.png">
             </div>
             
             <!-- Force next columns to break to new line -->
             <div class="w-100"></div>
                 
             <div class="centerMe">
-                <p>I've always had a passion for science and building things.</p>
+                <p>I've always had a passion for science and building things. </p>
             </div>
 
           </div>
@@ -118,7 +123,7 @@
     </div>
 
     <div class = "quoteFromBen">
-        <p id = "quoteText"> "Very few people feel that frustration, and really spend the time to go understand it. It's a special thing only the best of engineers can do." </p>
+        <p id = "quoteText"> <span class = "quoteHighlight">"</span>Very few people feel that frustration, and really spend the time to go understand it. It's a special thing only the best of engineers can do.<span class = "quoteHighlight">"</span> </p>
     </div>
 
 
