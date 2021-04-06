@@ -36,11 +36,14 @@
     font-size: 80px;
 }
 
-/* About Me Section Class */
+/* About Me Section */
 
 .aboutMeSection {
     height: auto;
-    background-color: var(--blueMainColor);
+
+    border-top: 4px var(--blueMainColor) solid;
+    border-bottom: 4px var(--blueMainColor) solid;
+
     display: flex;
 }
 
@@ -86,9 +89,13 @@
     height: auto;
     padding-top: 70px;
     padding-bottom: 70px;
-    background-color: var(--blueMainColor);
+    margin: 30px 0px 30px 0px;
 
     text-align: center;
+
+    background-color: var(--blueMainColor);
+
+    
 }
 
 #quoteText {
@@ -111,9 +118,8 @@
 /*Contact Me Section*/
 
 .contactMeSection {
-    background-color: var(--blueMainColor);
-
-
+    margin-top: 30px;
+    border: 4px var(--blueMainColor) solid;
 }
 
 .contactIcons {
