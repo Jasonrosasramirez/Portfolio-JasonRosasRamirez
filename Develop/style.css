@@ -2,7 +2,7 @@
     --softNavColor: rgba(138, 132, 132, 0.815);
     --blueMainColor: rgb(41, 148, 219);
     --blackContactBackground: rgb(26, 19, 19); 
-    --yellowLife: rgb(250, 215, 16);
+    --yellowLife: rgb(240, 190, 52);
 }
 
 
@@ -152,6 +152,7 @@ p {
 
 #letsCollab {
     font-family: 'Montserrat Alternates', sans-serif;
+    color: var(--yellowLife);
 
 }
 
