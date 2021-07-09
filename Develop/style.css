@@ -99,6 +99,10 @@ p {
 
 }
 
+.btn {
+    border: 2px white solid;
+} 
+
 /* Quote from Ben */
 
 .quoteFromBen {
@@ -164,6 +168,11 @@ p {
     text-align: center;
     font-size: 36px;
 }
+
+#emailFont {
+    color: var(--blueMainColor);
+}
+
 
 /* footer */
 
